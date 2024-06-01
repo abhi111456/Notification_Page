@@ -10,13 +10,14 @@
 body {
   min-height: 100vh;
   display: flex;
+  background-color: hsl(210, 60%, 98%);
   justify-content: center;
 
 }
 .container {
   margin: 2rem;
   width: 700px;
-  background-color: var(--White);
+  background-color:  hsl(0, 0%, 100%);
   padding: 1.5rem 1rem;
   border-radius: 0.5rem;
 }
@@ -34,7 +35,7 @@ header {
   
   margin-left: 0.5rem;
   width: 35px;
-  background-color: blue;
+  background-color:hsl(219, 85%, 26%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,3 +82,7 @@ img{
     margin: 0px;
     padding: 18px;
 }
+.chess_img{
+    margin-left: auto;
+    }
+    
