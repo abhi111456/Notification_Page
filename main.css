@@ -31,16 +31,33 @@ header {
   display: flex;
   align-items: center;
 }
+.notify{
+    background-color:hsl(200, 20%, 97%);
+  }
+.notify p:first-of-type::after{
+    content: " ";
+    background-color:hsl(1, 90%, 64%);
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+b{
+    color:hsl(224, 20%, 29%);
+  }
+.link{
+    color:hsl(224, 23%, 36%);
+  }
 #notifications {
   
   margin-left: 0.5rem;
   width: 35px;
-  background-color:hsl(219, 85%, 26%);
+  background-color:hsl(219, 68%, 24%);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 30px;
-  color: var(--White);
+  color: hsl(0, 0%, 100%);
   font-weight: 800;
   border-radius: 0.5rem;
 }
